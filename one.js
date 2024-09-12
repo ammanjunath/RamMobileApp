@@ -18,6 +18,6 @@ var data = [{
   amount: '80000'
 }];
 
-app.listen(8080, function() {
+app.listen(3002, 0.0.0.0, function() {
     console.log('Service is running');
 });
